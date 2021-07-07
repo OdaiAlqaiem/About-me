@@ -136,6 +136,7 @@ function guessGame() {
         alert('well let\'s start ');
         qOne();
         qTwo();
+    
     }
 }
 
