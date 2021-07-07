@@ -58,7 +58,7 @@ if (car === 'yes' || car === 'y') {
 
 
 }
-
+function qfour(){
 // Your feelings
 let feelings = prompt('Are you good ?');
 feelings = feelings.toLocaleLowerCase();
@@ -70,7 +70,7 @@ if (feelings === 'yes' || feelings === 'y') {
     lert(' I am sad for you');
     //console.log(feelings);  
 }
-
+}
 
 
 // Gess number
@@ -141,6 +141,7 @@ function guessGame() {
         qOne();
         qTwo();
         qthree();
+        qfour();
     
     }
 }
