@@ -24,7 +24,8 @@ function qOne() {
 
 }
 
-
+function qTwo(){
+    
 //Age
 let age = prompt('Are you 30 years old?');
 age = age.toLowerCase();
@@ -38,6 +39,7 @@ if (age === 'yes' || age === 'y') {
 }
 
 
+}
 
 //Have a car
 let car = prompt('Do you have a car ?');
@@ -133,6 +135,7 @@ function guessGame() {
     if (game) {
         alert('well let\'s start ');
         qOne();
+        qTwo();
     }
 }
 
