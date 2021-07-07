@@ -85,6 +85,7 @@ function qfive() {
         lert(' i am sad ');
         //console.log(feelings);  
     }
+    
 }
 
 
