@@ -121,6 +121,11 @@ for (let x = 0; x < 5; x++) {
 
 
 }
+
+
+
+
+function qseven(){
 // The animals array
 let animalsArr = ['dog', 'cat', 'wolf', 'tiger', 'dolphin', 'penguin', 'hourse', 'lion', 'fox', 'elephant'];
 
@@ -151,6 +156,7 @@ if (x == 5) {
 
 alert(`Perfect, thanks for answering ${name}. Your scored ${score} /7 `);
 
+}
 
 function guessGame() {
     let game = confirm('Do you want to Play Guessing Game');
@@ -163,6 +169,7 @@ function guessGame() {
         qfour();
         qfive();
         qsix();
+        qseven();
 
     }
 }
