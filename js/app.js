@@ -85,13 +85,13 @@ function qfive() {
         lert(' i am sad ');
         //console.log(feelings);  
     }
-    
+
 }
 
 
 
 
-
+function qsix() {
 // Gess number
 for (let x = 0; x < 5; x++) {
     let guessnum = prompt('Guess a number between 1-20 ?');
@@ -120,7 +120,7 @@ for (let x = 0; x < 5; x++) {
 
 
 
-
+}
 // The animals array
 let animalsArr = ['dog', 'cat', 'wolf', 'tiger', 'dolphin', 'penguin', 'hourse', 'lion', 'fox', 'elephant'];
 
@@ -162,6 +162,7 @@ function guessGame() {
         qthree();
         qfour();
         qfive();
+        qsix();
 
     }
 }
