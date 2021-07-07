@@ -41,6 +41,9 @@ if (age === 'yes' || age === 'y') {
 
 }
 
+function qthree(){
+
+
 //Have a car
 let car = prompt('Do you have a car ?');
 car = car.toLowerCase();
@@ -53,7 +56,7 @@ if (car === 'yes' || car === 'y') {
     // console.log(car);
 }
 
-
+}
 
 // Your feelings
 let feelings = prompt('Are you good ?');
@@ -136,6 +139,7 @@ function guessGame() {
         alert('well let\'s start ');
         qOne();
         qTwo();
+        qthree();
     
     }
 }
