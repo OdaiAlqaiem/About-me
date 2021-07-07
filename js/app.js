@@ -24,52 +24,70 @@ function qOne() {
 
 }
 
-function qTwo(){
-    
-//Age
-let age = prompt('Are you 30 years old?');
-age = age.toLowerCase();
-if (age === 'yes' || age === 'y') {
-    alert('you are welcom');
-    //console.log(age);
-    score++;
-} else {
-    alert(' Sorry, you\'r young person');
-    // console.log(age);
-}
+function qTwo() {
+
+    //Age
+    let age = prompt('Are you 30 years old?');
+    age = age.toLowerCase();
+    if (age === 'yes' || age === 'y') {
+        alert('you are welcom');
+        //console.log(age);
+        score++;
+    } else {
+        alert(' Sorry, you\'r young person');
+        // console.log(age);
+    }
 
 
 }
 
-function qthree(){
+function qthree() {
 
 
-//Have a car
-let car = prompt('Do you have a car ?');
-car = car.toLowerCase();
-if (car === 'yes' || car === 'y') {
-    alert('congratulation  ');
-    // console.log(car);
-    score++;
-} else {
-    alert('I hope to own one ');
-    // console.log(car);
+    //Have a car
+    let car = prompt('Do you have a car ?');
+    car = car.toLowerCase();
+    if (car === 'yes' || car === 'y') {
+        alert('congratulation  ');
+        // console.log(car);
+        score++;
+    } else {
+        alert('I hope to own one ');
+        // console.log(car);
+    }
+
+
+}
+function qfour() {
+    // Your feelings
+    let feelings = prompt('Are you good ?');
+    feelings = feelings.toLocaleLowerCase();
+    if (feelings === 'yes' || feelings === 'y') {
+        alert('glad you are good');
+        //console.log(feelings);
+        score++;
+    } else {
+        lert(' I am sad for you');
+        //console.log(feelings);  
+    }
 }
 
 
+function qfive() {
+    // Your feelings
+    let feelings = prompt('Do You Like cofee ?');
+    feelings = feelings.toLocaleLowerCase();
+    if (feelings === 'yes' || feelings === 'y') {
+        alert('nice one');
+        //console.log(feelings);
+        score++;
+    } else {
+        lert(' i am sad ');
+        //console.log(feelings);  
+    }
 }
 
-// Your feelings
-let feelings = prompt('Are you good ?');
-feelings = feelings.toLocaleLowerCase();
-if (feelings === 'yes' || feelings === 'y') {
-    alert('glad you are good');
-    //console.log(feelings);
-    score++;
-} else {
-    lert(' I am sad for you');
-    //console.log(feelings);  
-}
+
 
 
 
@@ -141,7 +159,9 @@ function guessGame() {
         qOne();
         qTwo();
         qthree();
-    
+        qfour();
+        qfive();
+
     }
 }
 
