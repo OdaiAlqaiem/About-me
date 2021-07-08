@@ -85,17 +85,6 @@ function qfive() {
         lert(' i am sad ');
         //console.log(feelings);  
     }
-
-// Your feeling
-let feeling=prompt('Are you good ?');
-feeling=feeling.toLocaleLowerCase();
-if(feeling === 'yes' || feeling === 'y' ){
-alert('glad you are good' );
-//console.log(feeling);
-score++;
-}else{
-    alert(' I am sad for you');
-    //console.log(feeling;  
 }
 
 
@@ -159,9 +148,9 @@ function qseven(){
   }
 
   //Test Number of attempts
-  if (a == 5) {
-    alert('My favoutite animals are : (dog, cat, wolf, tiger, dolphin, penguin, hourse, lion, fox, elephant)');
-}
+//   if (a == 5) {
+    // alert('My favoutite animals are : (dog, cat, wolf, tiger, dolphin, penguin, hourse, lion, fox, elephant)');
+// }
 
 
 alert(`Perfect, thanks for answering ${name}. Your scored ${score} /7 `);
