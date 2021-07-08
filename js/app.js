@@ -65,7 +65,7 @@ alert('glad you are good' );
 //console.log(feelings);
 score++;
 }else{
-    lert(' I am sad for you');
+    alert(' I am sad for you');
     //console.log(feelings);  
 }
 
@@ -109,7 +109,7 @@ for (let x = 0; x < 5; x++) {
           if (animal == animalsArr[b] ) {
               alert('Nice Job');
               // console.log(animalsArr);
-              scores++;
+              score++;
               break attemptsLoop;
           }
           
@@ -117,14 +117,14 @@ for (let x = 0; x < 5; x++) {
 
       
       if (a == 5) {
-          alert('My animals:');
+          alert('My favoutite animals are : (dog, cat, wolf, tiger, dolphin, penguin, hourse, lion, fox, elephant)');
           break;
       }
   }
 
   //Test Number of attempts
-  if (x == 5) {
-    alert('My animals: (dog, cat, wolf, tiger, dolphin, penguin, hourse, lion, fox, elephant)');
+  if (a == 5) {
+    alert('My favoutite animals are : (dog, cat, wolf, tiger, dolphin, penguin, hourse, lion, fox, elephant)');
 }
 
 
